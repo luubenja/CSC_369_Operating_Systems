@@ -1,0 +1,11 @@
+Benjamin Luu, Dragan Soso
+luubenja, sosodrag
+34e4b8d248addf1f96c7d1469abba48e77378f97
+
+We attempted the bonus case for handling cases when a START_MONITORING request
+is made with pid = 0,
+We implemented a 'blacklist case' which treats pids added to the pid list
+as pids not being monitored
+The 'blacklist case' returns to normal once a STOP_MONITORING request is made with
+pid = 0 (ie. telling it to stop monitoring all pids), this reverts to the 
+pid list being used to keep track of pids being monitored.

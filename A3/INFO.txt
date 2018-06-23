@@ -1,0 +1,11 @@
+Benjamin Luu
+luubenja
+
+Dragan Soso
+sosodrag
+
+39ae3da5d41e832fce3c90ad9b56bc8498b803f6
+
+Our OPT algorithm implementation does not work as intended so we omitted it from the discussion about the results from our algorithms.
+Weirdly it ended up performing the worst even thought it was supposed to be 'optimal'.
+
